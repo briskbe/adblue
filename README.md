@@ -12,6 +12,16 @@ python3 -m http.server 8080
 
 Or open `index.html` directly in a browser.
 
+## Preview on your phone
+
+**Do not** open the jsDelivr/raw GitHub URL directly — Safari will show HTML source code.
+
+Use this link (renders the real page):
+
+**https://htmlpreview.github.io/?https://raw.githubusercontent.com/briskbe/adblue/main/index.html**
+
+For a clean permanent URL, enable [GitHub Pages](https://github.com/briskbe/adblue/settings/pages): Source **Deploy from branch** → **gh-pages** → **/ (root)** → Save. Then open **https://briskbe.github.io/adblue/**
+
 ## Data sources
 
 - [Statbel](https://statbel.fgov.be/) — Belgian statistics
