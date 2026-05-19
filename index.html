@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description" content="Comprehensive statistics about Genk, Belgium — population, economy, housing, culture and more." />
+  <meta name="theme-color" content="#0a1612" />
+  <title>Genk in Numbers · Belgium</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient__orb ambient__orb--1"></div>
+    <div class="ambient__orb ambient__orb--2"></div>
+    <div class="ambient__grid"></div>
+  </div>
+
+  <header class="header" id="top">
+    <div class="header__inner">
+      <a class="logo" href="#top">
+        <span class="logo__mark">G</span>
+        <span class="logo__text">Genk<span class="logo__sub">Limburg · BE</span></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav-menu" aria-label="Sections">
+        <a href="#overview">Overview</a>
+        <a href="#demographics">People</a>
+        <a href="#housing">Housing</a>
+        <a href="#economy">Economy</a>
+        <a href="#commerce">Commerce</a>
+        <a href="#culture">Culture</a>
+        <a href="#sources">Sources</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__badge">
+        <span class="pulse"></span>
+        De Groene Stad · The Green City
+      </div>
+      <h1 class="hero__title">
+        <span class="hero__title-line">Genk</span>
+        <span class="hero__title-line hero__title-line--accent">in numbers</span>
+      </h1>
+      <p class="hero__lead">
+        A mobile-first dashboard of public statistics for Belgium's industrial heartland in Limburg — from population trends to housing, jobs, and heritage.
+      </p>
+
+      <div class="hero__stats">
+        <article class="hero-stat" data-animate>
+          <span class="hero-stat__value" data-count="68058">0</span>
+          <span class="hero-stat__label">Residents <em>2025</em></span>
+          <span class="hero-stat__delta hero-stat__delta--up">+0.27% vs 2024</span>
+        </article>
+        <article class="hero-stat" data-animate>
+          <span class="hero-stat__value">87.6</span>
+          <span class="hero-stat__label">Area <em>km²</em></span>
+          <span class="hero-stat__delta">778 people / km²</span>
+        </article>
+        <article class="hero-stat" data-animate>
+          <span class="hero-stat__value" data-count="45000">0</span>
+          <span class="hero-stat__label">Jobs <em>region</em></span>
+          <span class="hero-stat__delta">3rd in Flanders</span>
+        </article>
+        <article class="hero-stat" data-animate>
+          <span class="hero-stat__value">12th</span>
+          <span class="hero-stat__label">In Flanders <em>by size</em></span>
+          <span class="hero-stat__delta">of 285 municipalities</span>
+        </article>
+      </div>
+
+      <div class="hero__coords">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+        50.967°N · 5.500°E · Province of Limburg
+      </div>
+    </section>
+
+    <!-- OVERVIEW -->
+    <section class="section" id="overview">
+      <header class="section__head">
+        <span class="section__eyebrow">01 · Identity</span>
+        <h2 class="section__title">City at a glance</h2>
+        <p class="section__desc">Administrative facts, rankings, and quick reference figures.</p>
+      </header>
+
+      <div class="stat-grid">
+        <article class="stat-card stat-card--wide" data-animate>
+          <div class="stat-card__icon">🏛️</div>
+          <h3>Governance</h3>
+          <dl class="stat-list">
+            <dt>Mayor</dt><dd>Wim Dries <span class="tag">CD&V</span></dd>
+            <dt>Coalition</dt><dd>CD&V, Pro Genk</dd>
+            <dt>City status</dt><dd>Since 2000 <span class="muted">(law 1999)</span></dd>
+            <dt>NIS code</dt><dd>71016</dd>
+            <dt>Postal code</dt><dd>3600</dd>
+            <dt>Phone area</dt><dd>089</dd>
+          </dl>
+        </article>
+
+        <article class="stat-card" data-animate>
+          <div class="stat-card__icon">🗺️</div>
+          <h3>Region</h3>
+          <dl class="stat-list">
+            <dt>Country</dt><dd>Belgium</dd>
+            <dt>Community</dt><dd>Flemish</dd>
+            <dt>Province</dt><dd>Limburg</dd>
+            <dt>Arrondissement</dt><dd>Hasselt</dd>
+            <dt>Sub-municipalities</dt><dd>2 <span class="muted">Genk · Waterschei-Zwartberg</span></dd>
+          </dl>
+        </article>
+
+        <article class="stat-card" data-animate>
+          <div class="stat-card__icon">📊</div>
+          <h3>Rankings</h3>
+          <dl class="stat-list">
+            <dt>Flanders</dt><dd>#12 of 285 <span class="muted">population</span></dd>
+            <dt>Belgium</dt><dd>#24 of 565 <span class="muted">population</span></dd>
+            <dt>Economy</dt><dd>#3 in Flanders <span class="muted">industrial output</span></dd>
+            <dt>Foreign residents</dt><dd>#94 of 565 <span class="muted">by share</span></dd>
+          </dl>
+        </article>
+
+        <article class="stat-card" data-animate>
+          <div class="stat-card__icon">🌍</div>
+          <h3>Twin cities</h3>
+          <ul class="chip-list">
+            <li>Francistown <span>Botswana</span></li>
+            <li>Cieszyn <span>Poland</span></li>
+            <li>Isparta <span>Turkey</span></li>
+            <li>San Giovanni in Fiore <span>Italy</span></li>
+          </ul>
+        </article>
+
+        <article class="stat-card stat-card--highlight" data-animate>
+          <div class="stat-card__big">+12%</div>
+          <p>Population growth since 1990 — from <strong>60,793</strong> to <strong>68,058</strong> residents (+7,265 people).</p>
+          <p class="muted">Average annual growth 2019–2025: ~0.4%</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- DEMOGRAPHICS -->
+    <section class="section section--alt" id="demographics">
+      <header class="section__head">
+        <span class="section__eyebrow">02 · Demographics</span>
+        <h2 class="section__title">People & society</h2>
+        <p class="section__desc">Population structure, migration, age, nationality and civil status — Statbel 2024–2025.</p>
+      </header>
+
+      <div class="mini-metrics">
+        <div class="mini-metric" data-animate><span class="mini-metric__val">49.4%</span><span class="mini-metric__lbl">Male</span></div>
+        <div class="mini-metric" data-animate><span class="mini-metric__val">50.6%</span><span class="mini-metric__lbl">Female</span></div>
+        <div class="mini-metric" data-animate><span class="mini-metric__val">42.8</span><span class="mini-metric__lbl">Avg. age (yrs)</span></div>
+        <div class="mini-metric" data-animate><span class="mini-metric__val">13.3%</span><span class="mini-metric__lbl">Foreigners</span></div>
+      </div>
+
+      <div class="stat-grid">
+        <article class="stat-card" data-animate>
+          <h3>Population trend</h3>
+          <div class="bar-chart" role="img" aria-label="Population growth 2020 to 2025">
+            <div class="bar-chart__row"><span>2020</span><div class="bar-chart__bar" style="--w: 97.6%"><em>66,447</em></div></div>
+            <div class="bar-chart__row"><span>2021</span><div class="bar-chart__bar" style="--w: 97.9%"><em>66,673</em></div></div>
+            <div class="bar-chart__row"><span>2022</span><div class="bar-chart__bar" style="--w: 98.4%"><em>67,009</em></div></div>
+            <div class="bar-chart__row"><span>2023</span><div class="bar-chart__bar" style="--w: 99.3%"><em>67,573</em></div></div>
+            <div class="bar-chart__row"><span>2024</span><div class="bar-chart__bar" style="--w: 99.7%"><em>67,877</em></div></div>
+            <div class="bar-chart__row bar-chart__row--active"><span>2025</span><div class="bar-chart__bar" style="--w: 100%"><em>68,058</em></div></div>
+          </div>
+        </article>
+
+        <article class="stat-card" data-animate>
+          <h3>Births, deaths & migration <span class="tag">2024</span></h3>
+          <dl class="stat-list">
+            <dt>Births</dt><dd>570</dd>
+            <dt>Deaths</dt><dd>669</dd>
+            <dt>Natural balance</dt><dd class="negative">−99</dd>
+            <dt>Net migration</dt><dd class="positive">+280</dd>
+            <dt>Total change</dt><dd class="positive">+181</dd>
+          </dl>
+        </article>
+
+        <article class="stat-card" data-animate>
+          <h3>Age groups <span class="tag">2025</span></h3>
+          <dl class="stat-list stat-list--compact">
+            <dt>0–10</dt><dd>6,521</dd>
+            <dt>10–20</dt><dd>8,064</dd>
+            <dt>20–30</dt><dd>7,952</dd>
+            <dt>30–40</dt><dd>8,222</dd>
+            <dt>40–50</dt><dd>8,707</dd>
+            <dt>50–60</dt><dd>9,006</dd>
+            <dt>60–70</dt><dd>9,337</dd>
+            <dt>70–80</dt><dd>6,256</dd>
+            <dt>80–90</dt><dd>3,217</dd>
+            <dt>90+</dt><dd>776</dd>
+          </dl>
+        </article>
+
+        <article class="stat-card" data-animate>
+          <h3>Nationality <span class="tag">2025</span></h3>
+          <dl class="stat-list">
+            <dt>Belgian</dt><dd>59,024 <span class="muted">86.7%</span></dd>
+            <dt>Foreign</dt><dd>9,034 <span class="muted">13.3%</span></dd>
+            <dt>EU (excl. BE)</dt><dd>~5,858 <span class="muted">2024</span></dd>
+            <dt>Non-EU</dt><dd>~3,113 <span class="muted">2024</span></dd>
+            <dt>Nationalities</dt><dd>85–107 <span class="muted">recorded</span></dd>
+          </dl>
+          <p class="stat-card__note">Largest foreign communities include Italian, Turkish and Greek heritage — among the highest Turkish share relative to population in Belgium.</p>
+        </article>
+
+        <article class="stat-card" data-animate>
+          <h3>Civil status <span class="tag">2025</span></h3>
+          <div class="donut-legend">
+            <div class="donut-legend__item"><span class="dot dot--1"></span>Married <strong>27,355</strong></div>
+            <div class="donut-legend__item"><span class="dot dot--2"></span>Unmarried <strong>30,488</strong></div>
+            <div class="donut-legend__item"><span class="dot dot--3"></span>Divorced <strong>6,113</strong></div>
+            <div class="donut-legend__item"><span class="dot dot--4"></span>Widowed <strong>4,102</strong></div>
+          </div>
+        </article>
+
+        <article class="stat-card" data-animate>
+          <h3>Households <span class="tag">2024</span></h3>
+          <dl class="stat-list">
+            <dt>Total households</dt><dd>27,767</dd>
+            <dt>Avg. household size</dt><dd>2.4 people</dd>
+            <dt>1 person</dt><dd>8,680 <span class="muted">31%</span></dd>
+            <dt>2 people</dt><dd>8,816 <span class="muted">32%</span></dd>
+            <dt>3 people</dt><dd>4,098 <span class="muted">15%</span></dd>
+            <dt>4 people</dt><dd>3,736 <span class="muted">13%</span></dd>
+            <dt>5+ people</dt><dd>2,437 <span class="muted">9%</span></dd>
+          </dl>
+        </article>
+      </div>
+    </section>
+
+    <!-- HOUSING -->
+    <section class="section" id="housing">
+      <header class="section__head">
+        <span class="section__eyebrow">03 · Housing & mobility</span>
+        <h2 class="section__title">Living in Genk</h2>
+        <p class="section__desc">Dwellings, ownership, real estate market and transport infrastructure.</p>
+      </header>
+
+      <div class="stat-grid">
+        <article class="stat-card stat-card--metric" data-animate>
+          <span class="stat-card__metric" data-count="29836">0</span>
+          <span class="stat-card__metric-label">Residential units</span>
+        </article>
+        <article class="stat-card stat-card--metric" data-animate>
+          <span class="stat-card__metric" data-count="36700">0</span>
+          <span class="stat-card__metric-label">Addresses (2026)</span>
+        </article>
+        <article class="stat-card stat-card--metric" data-animate>
+          <span class="stat-card__metric" data-count="32816">0</span>
+          <span class="stat-card__metric-label">Registered vehicles</span>
+        </article>
+
+        <article class="stat-card" data-animate>
+          <h3>Ownership <span class="tag">2024</span></h3>
+          <div class="split-bar">
+            <div class="split-bar__segment split-bar__segment--a" style="--share: 71%">Owners 71%</div>
+            <div class="split-bar__segment split-bar__segment--b" style="--share: 29%">Renters 29%</div>
+          </div>
+          <dl class="stat-list">
+            <dt>Owner-occupiers</dt><dd>47,603</dd>
+            <dt>Renters</dt><dd>19,063</dd>
+            <dt>Owner households</dt><dd>18,270 <span class="muted">66%</span></dd>
+          </dl>
+        </article>
+
+        <article class="stat-card" data-animate>
+          <h3>Building periods</h3>
+          <dl class="stat-list">
+            <dt>Before 1900</dt><dd>79</dd>
+            <dt>1900–1945</dt><dd>4,960</dd>
+            <dt>1946–1970</dt><dd>9,072</dd>
+            <dt>1971–2000</dt><dd>9,118</dd>
+            <dt>2001–2010</dt><dd>2,845</dd>
+            <dt>2011–2020</dt><dd>2,832</dd>
+            <dt>Since 2021</dt><dd>785</dd>
+          </dl>
+        </article>
+
+        <article class="stat-card" data-animate>
+          <h3>Real estate sales <span class="tag">2023</span></h3>
+          <dl class="stat-list">
+            <dt>Apartment sales</dt><dd>257</dd>
+            <dt>House sales (total)</dt><dd>326</dd>
+            <dt>Row / semi-detached</dt><dd>181</dd>
+            <dt>Detached houses</dt><dd>145</dd>
+          </dl>
+          <h4 class="stat-card__subhead">Median prices</h4>
+          <dl class="stat-list">
+            <dt>Apartments</dt><dd>€129,852</dd>
+            <dt>Houses (all)</dt><dd>€110,031</dd>
+            <dt>Detached</dt><dd>€32,386 <span class="muted">P50*</span></dd>
+          </dl>
+          <p class="stat-card__note muted">* Statbel percentiles; consult official data for full price bands.</p>
+        </article>
+
+        <article class="stat-card" data-animate>
+          <h3>Density per hectare</h3>
+          <dl class="stat-list">
+            <dt>Residents</dt><dd>7.8 / ha</dd>
+            <dt>Addresses</dt><dd>4.19 / ha</dd>
+            <dt>Households</dt><dd>3.17 / ha</dd>
+            <dt>Vehicles</dt><dd>3.75 / ha</dd>
+          </dl>
+        </article>
+
+        <article class="stat-card" data-animate>
+          <h3>Transport</h3>
+          <ul class="feature-list">
+            <li><strong>Albert Canal</strong> — major freight waterway linking Antwerp & Liège</li>
+            <li><strong>Rail</strong> — service to Hasselt & goods station Genk-Goederen</li>
+            <li><strong>Zwartberg Airfield</strong> — 6 km northeast (EBZW)</li>
+            <li><strong>De Lijn</strong> — municipal bus network</li>
+            <li><strong>Hoge Kempen</strong> — gateway to Belgium's first national park (since 2006)</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ECONOMY -->
+    <section class="section section--alt" id="economy">
+      <header class="section__head">
+        <span class="section__eyebrow">04 · Economy & income</span>
+        <h2 class="section__title">Work & wealth</h2>
+        <p class="section__desc">From coal mines to Ford, C-Mine and Thor Park — Genk's industrial evolution.</p>
+      </header>
+
+      <div class="timeline" data-animate>
+        <article class="timeline__item">
+          <span class="timeline__year">1901</span>
+          <p>Coal discovered — mines at Zwartberg, Waterschei & Winterslag transform a village of ~2,000 into an industrial city.</p>
+        </article>
+        <article class="timeline__item">
+          <span class="timeline__year">1966</span>
+          <p>Zwartberg mine closes; Winterslag (1986) and Waterschei (1987) follow — post-coal reconversion begins.</p>
+        </article>
+        <article class="timeline__item">
+          <span class="timeline__year">2014</span>
+          <p>Ford Genk Body & Assembly closes (~5,000 jobs at peak) — Mondeo, Galaxy & S-MAX production ends.</p>
+        </article>
+        <article class="timeline__item timeline__item--now">
+          <span class="timeline__year">Today</span>
+          <p>Thor Park (195 ha, ~78% occupied) and C-Mine creative hub drive the new economy.</p>
+        </article>
+      </div>
+
+      <div class="stat-grid">
+        <article class="stat-card stat-card--alert" data-animate>
+          <h3>Labour market <span class="tag">2024</span></h3>
+          <div class="stat-card__big stat-card__big--warn">8.4%</div>
+          <p>Unemployment rate — <strong>+3.3 pp</strong> above Flanders average (5.1%).</p>
+        </article>
+
+        <article class="stat-card" data-animate>
+          <h3>Income <span class="tag">2022 tax data</span></h3>
+          <dl class="stat-list">
+            <dt>Avg. net taxable / return</dt><dd>€33,973</dd>
+            <dt>Median income</dt><dd>€28,082</dd>
+            <dt>Tax returns filed</dt><dd>39,567</dd>
+            <dt>Total net taxable income</dt><dd>€1.34 billion</dd>
+          </dl>
+        </article>
+
+        <article class="stat-card" data-animate>
+          <h3>Thor Park</h3>
+          <dl class="stat-list">
+            <dt>Area</dt><dd>195 hectares</dd>
+            <dt>Occupancy</dt><dd>~78%</dd>
+            <dt>Companies</dt><dd>45+</dd>
+            <dt>Employees</dt><dd>~2,100</dd>
+          </dl>
+          <p class="stat-card__note">Anchors include Valmet Automotive (~450), Umicore battery R&D (~180), VDL Reman (~320).</p>
+        </article>
+
+        <article class="stat-card" data-animate>
+          <h3>C-Mine creative hub</h3>
+          <dl class="stat-list">
+            <dt>Site</dt><dd>Former Winterslag colliery</dd>
+            <dt>Companies & orgs</dt><dd>42</dd>
+            <dt>Jobs created</dt><dd>~330</dd>
+            <dt>Creative sector jobs</dt><dd>~200</dd>
+          </dl>
+          <p class="stat-card__note">Education, design, cinema, culture & startups on a heritage mining site.</p>
+        </article>
+
+        <article class="stat-card" data-animate>
+          <h3>Regional jobs</h3>
+          <p class="stat-card__lead">Genk offers <strong>45,000+ jobs</strong>, ranking as Flanders' <strong>third most significant</strong> economic centre after Antwerp and Ghent regions.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- COMMERCE -->
+    <section class="section" id="commerce">
+      <header class="section__head">
+        <span class="section__eyebrow">05 · Commerce</span>
+        <h2 class="section__title">Shops & services</h2>
+        <p class="section__desc">Local retail and hospitality footprint — 2024.</p>
+      </header>
+
+      <div class="stat-grid stat-grid--commerce">
+        <article class="commerce-tile" data-animate>
+          <span class="commerce-tile__num" data-count="1424">0</span>
+          <span class="commerce-tile__label">Commercial premises</span>
+          <span class="commerce-tile__per">21 per 1,000 residents</span>
+        </article>
+        <article class="commerce-tile" data-animate>
+          <span class="commerce-tile__num" data-count="476">0</span>
+          <span class="commerce-tile__label">Retail shops</span>
+        </article>
+        <article class="commerce-tile" data-animate>
+          <span class="commerce-tile__num" data-count="298">0</span>
+          <span class="commerce-tile__label">Hospitality venues</span>
+          <span class="commerce-tile__per">4.35 per 1,000 residents</span>
+        </article>
+        <article class="commerce-tile" data-animate>
+          <span class="commerce-tile__num" data-count="458">0</span>
+          <span class="commerce-tile__label">Consumer services</span>
+          <span class="commerce-tile__per">6.7 per 1,000 residents</span>
+        </article>
+        <article class="commerce-tile commerce-tile--muted" data-animate>
+          <span class="commerce-tile__num" data-count="192">0</span>
+          <span class="commerce-tile__label">Vacant commercial units</span>
+        </article>
+      </div>
+
+      <div class="stat-grid">
+        <article class="stat-card" data-animate>
+          <h3>Shop breakdown</h3>
+          <dl class="stat-list">
+            <dt>Daily goods</dt><dd>181</dd>
+            <dt>Periodic goods</dt><dd>168</dd>
+            <dt>Exceptional goods</dt><dd>101</dd>
+            <dt>Other retail</dt><dd>26</dd>
+          </dl>
+        </article>
+      </div>
+    </section>
+
+    <!-- CULTURE -->
+    <section class="section section--alt" id="culture">
+      <header class="section__head">
+        <span class="section__eyebrow">06 · Culture & sport</span>
+        <h2 class="section__title">Heritage & pride</h2>
+        <p class="section__desc">Museums, festivals, football and landmarks that define Genk.</p>
+      </header>
+
+      <div class="stat-grid">
+        <article class="stat-card stat-card--krc" data-animate>
+          <div class="stat-card__club">KRC Genk</div>
+          <dl class="stat-list stat-list--inline">
+            <dt>League titles</dt><dd>4 <span class="muted">1999, 2002, 2011, 2019</span></dd>
+            <dt>Belgian Cups</dt><dd>5</dd>
+            <dt>Stadium capacity</dt><dd>25,500</dd>
+            <dt>Europa League</dt><dd>QF 2016–17</dd>
+          </dl>
+        </article>
+
+        <article class="stat-card" data-animate>
+          <h3>Landmarks & tourism</h3>
+          <ul class="feature-list">
+            <li><strong>Bokrijk</strong> — open-air museum of Flemish heritage</li>
+            <li><strong>C-Mine</strong> — culture, design & cinema on mining site</li>
+            <li><strong>Europlanetarium</strong> — planetarium & observatory at Kattevennen</li>
+            <li><strong>Coal heritage</strong> — slag heaps & preserved mine buildings</li>
+            <li><strong>De Maten</strong> — nature reserve; Zonnewijzerpark sundials</li>
+            <li><strong>Manifesta 2012</strong> — European biennial of contemporary art host</li>
+          </ul>
+        </article>
+
+        <article class="stat-card" data-animate>
+          <h3>Events & traditions</h3>
+          <ul class="feature-list">
+            <li>Carnival around Ash Wednesday</li>
+            <li>May celebrations with May Queen & flower parade</li>
+            <li>Saint Martin procession (patron saint)</li>
+            <li>Karting Genk — hosted CIK-FIA World Championship 2011</li>
+          </ul>
+        </article>
+
+        <article class="stat-card" data-animate>
+          <h3>Historical notes</h3>
+          <dl class="stat-list">
+            <dt>First mention</dt><dd>1108 <span class="muted">as "Geneche"</span></dd>
+            <dt>Celtic origins</dt><dd>Converted ~10th century</dd>
+            <dt>1900 population</dt><dd>~2,000</dd>
+            <dt>Peak mining era</dt><dd>~70,000 residents</dd>
+            <dt>Artist colony</dt><dd>400+ painters, 1840–1940</dd>
+          </dl>
+        </article>
+      </div>
+    </section>
+
+    <!-- SOURCES -->
+    <section class="section section--sources" id="sources">
+      <header class="section__head">
+        <span class="section__eyebrow">Data</span>
+        <h2 class="section__title">Sources</h2>
+        <p class="section__desc">Figures compiled from Belgian official and municipal open data. Always verify critical decisions against primary sources.</p>
+      </header>
+      <ul class="source-list">
+        <li><a href="https://statbel.fgov.be/" target="_blank" rel="noopener">Statbel</a> — Belgian statistics office</li>
+        <li><a href="https://www.genk.be/incijfers" target="_blank" rel="noopener">Genk in cijfers</a> — City of Genk dashboards</li>
+        <li><a href="https://allecijfers.be/gemeente/genk/" target="_blank" rel="noopener">AlleCijfers.be</a> — Municipal indicators</li>
+        <li><a href="https://en.wikipedia.org/wiki/Genk" target="_blank" rel="noopener">Wikipedia: Genk</a> — Context & history</li>
+      </ul>
+      <p class="footer-note">Last updated for display: May 2026 · Not an official government publication.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Made with public data · <a href="https://www.genk.be/" target="_blank" rel="noopener">genk.be</a></p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
